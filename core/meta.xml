@@ -1,0 +1,10 @@
+<meta>
+    <min_mta_version client="1.5.9" server="1.5.9"/>
+
+    <script src="mysql.lua" type="server"/>
+    <script src="server.lua" type="server"/>
+    <script src="register.lua" type="server"/>
+
+    <export function="getDatabase" type="server"/>
+    <export function="sendToGame" type="server" http="true"/>
+</meta>
